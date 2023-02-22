@@ -1,0 +1,38 @@
+.Plans{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid; */
+    flex-direction: column;
+    gap: 5px;
+}
+
+.qwert{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid; */
+
+}
+
+.todo_p{
+    width: 43.6%;
+    border:2px solid;
+    margin-right: 77px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-color: #616161;
+}
+
+.trashbtn{
+    border: none;
+    border-radius: 50px;
+}
+
+.trashbtn:hover{
+    background-color: red;
+}
